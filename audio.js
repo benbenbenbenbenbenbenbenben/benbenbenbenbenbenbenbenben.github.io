@@ -25,12 +25,12 @@ var jingle;
 var kick;
 var snare;
 
-loadAudio("sounds/clap.wav", function (buffer) { clap = buffer; });
-loadAudio("sounds/clave.wav", function (buffer) { clave = buffer; });
-loadAudio("sounds/cowbell.wav", function (buffer) { cowbell = buffer; });
-loadAudio("sounds/jingle.wav", function (buffer) { jingle = buffer; });
-loadAudio("sounds/kick.wav", function (buffer) { kick = buffer; });
-loadAudio("sounds/snare.wav", function (buffer) { snare = buffer; });
+loadAudio("https://benbenbenbenbenbenbenbenben.github.io/sounds/clap.wav", function (buffer) { clap = buffer; });
+loadAudio("https://benbenbenbenbenbenbenbenben.github.io/sounds/clave.wav", function (buffer) { clave = buffer; });
+loadAudio("https://benbenbenbenbenbenbenbenben.github.io/sounds/cowbell.wav", function (buffer) { cowbell = buffer; });
+loadAudio("https://benbenbenbenbenbenbenbenben.github.io/sounds/jingle.wav", function (buffer) { jingle = buffer; });
+loadAudio("https://benbenbenbenbenbenbenbenben.github.io/sounds/kick.wav", function (buffer) { kick = buffer; });
+loadAudio("https://benbenbenbenbenbenbenbenben.github.io/sounds/snare.wav", function (buffer) { snare = buffer; });
 
 function play(buffer)
 {
